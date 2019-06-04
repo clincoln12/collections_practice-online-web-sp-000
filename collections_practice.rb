@@ -30,6 +30,7 @@ end
 def find_a(strings)
   strings.each do |x|
     if x.starts_with?("a")
-      return strings
+      return x
     end
+  end
 end
