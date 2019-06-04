@@ -23,7 +23,7 @@ end
 def kesha_maker(strings)
   new_arr = []
   strings.each do |x|
-    strings[2] = "$"
+    x[2] = "$"
   end
     
   
