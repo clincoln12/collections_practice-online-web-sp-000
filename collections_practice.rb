@@ -24,6 +24,7 @@ def kesha_maker(strings)
   new_arr = []
   strings.each do |x|
     string[2] = "$"
+  end
     
   
 end
