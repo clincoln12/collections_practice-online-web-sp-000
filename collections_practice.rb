@@ -3,4 +3,5 @@ def sort_array_asc(ints)
 end
 
 def sort_array_desc(ints)
+  ints.sort.reverse
 end
