@@ -31,7 +31,7 @@ def find_a(strings)
   new_arr = []
   strings.each do |x|
     if x.start_with?("a")
-      x << new_arr
+      new_arr << x
     end
     new_arr
   end
