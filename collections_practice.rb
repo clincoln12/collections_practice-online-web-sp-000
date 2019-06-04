@@ -13,6 +13,7 @@ def sort_array_char_count(strings)
 end
 
 def swap_elements(array)
-  array.each_with_index |a, b|
+  array.each_with_index { |item, index|
+  
     
 end
