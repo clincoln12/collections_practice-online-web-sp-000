@@ -39,7 +39,7 @@ end
 
 def find_a(strings)
   new_arr = strings.dup
-  new_arr.map { |x| new_arr.delete(x) unless x.start_with?('a') }
+  new_arr.each { |x| new_arr.delete(x) unless x.start_with?('a') }
 end
 
 def sum_array(ints)
