@@ -22,7 +22,7 @@ end
 
 def kesha_maker(strings)
   new_arr = []
-  strings.each do |x|
+  strings.map_with_index { |x, i| "$" + 2 }
     
   
 end
