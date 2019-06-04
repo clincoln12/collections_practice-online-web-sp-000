@@ -32,10 +32,9 @@ def find_a(strings)
   strings.each do |x|
     if x.start_with?("a")
       new_arr << x
-    end
-    new_arr
+    end. P
   end
-  
+   
 end
 
 def find_ass(strings)
