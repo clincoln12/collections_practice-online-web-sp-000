@@ -33,7 +33,6 @@ def find_a(strings)
     if x.start_with?("a")
       new_arr << x
     end
-    
   end
   new_arr
 end
