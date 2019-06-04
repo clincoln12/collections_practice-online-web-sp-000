@@ -29,7 +29,7 @@ end
 
 def find_a(strings)
   strings.each do |x|
-    if x.starts_with?("a")
+    if x.start_with?("a")
       return x
     end
   end
