@@ -45,13 +45,3 @@ end
 def sum_array(ints)
   ints.inject { |sum, n| sum + n }   
 end
-
-
-sec
-
-
-
-
-
-
-
