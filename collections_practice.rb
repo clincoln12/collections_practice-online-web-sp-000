@@ -36,3 +36,16 @@ def find_a(strings)
   end
   new_arr
 end
+
+def sum_array(ints)
+end
+
+
+
+
+
+
+
+
+
+
