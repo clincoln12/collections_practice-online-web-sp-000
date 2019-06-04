@@ -29,5 +29,4 @@ end
 
 def find_a(strings)
   return strings if strings.start_with?("a")
-  end
 end
