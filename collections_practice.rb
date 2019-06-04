@@ -38,8 +38,11 @@ def find_ass(strings)
 end
 
 def find_a(strings)
-  new_arr = strings.dup
-  new_arr.each { |x| new_arr.delete(x) unless x.start_with?('a') }
+  array = []
+  
+  strings.each { |x| array << if x.start_with?('a') }
+  
+  array
 end
 
 def sum_array(ints)
