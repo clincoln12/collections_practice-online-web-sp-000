@@ -38,7 +38,8 @@ def find_ass(strings)
 end
 
 def find_a(strings)
-  strings.map { |x|  }
+  new_arr = strings.dup
+  new_arr.map { |x| new_arr.delete(x) if x[0] == 'a' }
 end
 
 def sum_array(ints)
