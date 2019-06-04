@@ -33,6 +33,7 @@ def find_a(strings)
     if x.start_with?("a")
       new_arr << x
     end. P
+    new_arr ->>> is not the last line of the method, is last line of block, doesnt get returned
   end
    
 end
