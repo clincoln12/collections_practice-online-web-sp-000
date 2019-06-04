@@ -27,7 +27,7 @@ def kesha_maker(strings)
   end
 end
 
-def find_a(strings)
+def find_ass(strings)
   new_arr = []
   strings.each do |x|
     if x.start_with?("a")
@@ -35,6 +35,10 @@ def find_a(strings)
     end
   end
   new_arr
+end
+
+def find_a(strings)
+  strings.map { |x|  }
 end
 
 def sum_array(ints)
