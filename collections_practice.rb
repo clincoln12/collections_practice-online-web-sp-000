@@ -19,3 +19,10 @@ end
 def reverse_array(ints)
   ints.reverse
 end
+
+def kesha_maker(strings)
+  new_arr = []
+  strings.each do |x|
+    
+  
+end
