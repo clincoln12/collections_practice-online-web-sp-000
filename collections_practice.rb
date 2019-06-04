@@ -27,7 +27,7 @@ def kesha_maker(strings)
   end
 end
 
-def find_ass(strings)
+def find_a(strings)
   new_arr = []
   strings.each do |x|
     if x.start_with?("a")
@@ -35,9 +35,9 @@ def find_ass(strings)
     end
   end
   new_arr
-end m 
+end
 
-def find_a(strings)
+def find_ass(strings)
   array = []
   strings.each { |x| array << x if x.start_with?('a') }
   array
