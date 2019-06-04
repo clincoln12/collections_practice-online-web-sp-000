@@ -28,5 +28,8 @@ def kesha_maker(strings)
 end
 
 def find_a(strings)
-  return strings if strings.start_with?("a")
+  strings.each do |x|
+    if x.starts_with?("a")
+      return strings
+    end
 end
