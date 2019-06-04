@@ -35,7 +35,7 @@ def find_ass(strings)
     end
   end
   new_arr
-end
+end m 
 
 def find_a(strings)
   array = []
