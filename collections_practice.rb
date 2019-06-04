@@ -12,3 +12,7 @@ def sort_array_char_count(strings)
   end
 end
 
+def swap_elements(array)
+  array.each_with_index |a, b|
+    
+end
