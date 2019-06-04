@@ -28,4 +28,5 @@ def kesha_maker(strings)
 end
 
 def find_a(strings)
+  if strings.starts_with?
 end
