@@ -28,9 +28,11 @@ def kesha_maker(strings)
 end
 
 def find_a(strings)
+  new_arr = []
   strings.each do |x|
     if x.start_with?("a")
-      return x
+      x << new_arr
     end
+    new_arr
   end
 end
